@@ -1,0 +1,155 @@
+// Variables
+$primary-color: #2563eb;
+$primary-color-dark: #1d4ed8;
+$text-color: #4b5563;
+$white: #ffffff;
+$max-width: 1200px;
+
+// Mixins
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+}
+
+// Styles
+.hero-section {
+  min-height: 100vh;
+  background-color: $white;
+
+  .container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 48px 20px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .hero-text {
+    flex: 1;
+
+    .about-link {
+      @include flex-center;
+      gap: 8px;
+      margin-bottom: 16px;
+
+      a {
+        color: $primary-color;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          color: $primary-color-dark;
+        }
+      }
+
+      .info-icon {
+        width: 16px;
+        height: 16px;
+        fill: none;
+        stroke: $primary-color;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      line-height: 1.2;
+      margin-bottom: 24px;
+    }
+
+    .description {
+      color: $text-color;
+      margin-bottom: 24px;
+
+      p {
+        margin-bottom: 16px;
+      }
+    }
+
+    .read-more-btn {
+      @include flex-center;
+      padding: 12px 24px;
+      background-color: $primary-color;
+      color: $white;
+      text-decoration: none;
+      font-weight: 500;
+      border-radius: 6px;
+      transition: background-color 0.2s;
+
+      &:hover {
+        background-color: $primary-color-dark;
+      }
+
+      .arrow-icon {
+        width: 16px;
+        height: 16px;
+        margin-left: 8px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    }
+  }
+
+  .hero-image {
+    flex: 1;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+  }
+}
+
+// Media Queries
+@media (min-width: 768px) {
+  .hero-section {
+    .container {
+      padding: 96px 32px;
+    }
+
+    .hero-text {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-section {
+    .hero-content {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .hero-text {
+      flex: 0 0 50%;
+      padding-right: 32px;
+
+      h1 {
+        font-size: 3.5rem;
+      }
+    }
+
+    .hero-image {
+      flex: 0 0 50%;
+
+      img {
+        height: 100%;
+        max-height: 700px;
+      }
+    }
+  }
+}
