@@ -37,7 +37,9 @@ const About = () => {
       {/* <GoalArea /> */}
 
       {/* AboutOne */}
-      <AboutOne />
+      <div style={{ marginTop: "3rem" }}>
+        <AboutOne />
+      </div>
 
       {/* ProcessThree */}
       <ProcessThree />
