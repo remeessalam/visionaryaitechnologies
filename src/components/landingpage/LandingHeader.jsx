@@ -166,9 +166,9 @@ const LandingHeader = () => {
           <div className="mobile-menu">
             <ul id="offcanvas-navigation">
               <li>
-                <ScrollLink to="home" smooth={true} duration={500} offset={-70}>
+                <Link to="/" smooth={true} duration={500} offset={-70}>
                   Home
-                </ScrollLink>
+                </Link>
               </li>
               <li>
                 <ScrollLink
