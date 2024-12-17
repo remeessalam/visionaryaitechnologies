@@ -40,12 +40,12 @@ const PortfolioOne = () => {
                     {/* </Link> */}
                   </p>
                 </div>
-                <Link to="/project-details" className="icon-btn">
+                {/* <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
                     alt="Bizmaster"
                   />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ const PortfolioOne = () => {
                   </p>
                 </div>
                 {/* <Link to="/project-details" className="icon-btn"> */}
-                <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" />
+                {/* <img src="assets/img/icon/arrow-up-right.svg" alt="Bizmaster" /> */}
                 {/* </Link> */}
               </div>
             </div>
@@ -97,12 +97,12 @@ const PortfolioOne = () => {
                     country. {/* </Link> */}
                   </p>
                 </div>
-                <Link to="/project-details" className="icon-btn">
+                {/* <Link to="/project-details" className="icon-btn">
                   <img
                     src="assets/img/icon/arrow-up-right.svg"
                     alt="Bizmaster"
                   />
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>
