@@ -118,7 +118,12 @@ const TestimonialOne = () => {
                             />
                           </div>
                           <div className="testi-card-profile-details">
-                            <h4 className="testi-profile-title">Ben Convery</h4>
+                            <h4
+                              className="testi-profile-title"
+                              style={{ color: "black" }}
+                            >
+                              Ben Convery
+                            </h4>
                             <span className="testi-profile-desig">
                               President
                             </span>
