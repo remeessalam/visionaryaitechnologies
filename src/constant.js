@@ -34,6 +34,7 @@ import support from "./assets/images/appservice/support-icn.svg";
 import uiuxdesign from "./assets/images/appservice/ui-ux-design-icon.svg";
 export const companyDetails = {
   phone: "+91 9916333339",
+  whatsappbox: "9916333339",
   email: "support@visionaryaitechnologies.com",
   facebook: "https://www.facebook.com/profile.php?id=61564355138705",
   twitter: "https://x.com/bvr6030",

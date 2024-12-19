@@ -33,7 +33,10 @@ const ServiceOne = ({ page }) => {
               <div className="service-card">
                 <div
                   className="service-card_img"
-                  style={{ background: "black", padding: "5px" }}
+                  style={{
+                    background: "black",
+                    padding: window.innerWidth < 400 ? "50px" : "25px",
+                  }}
                 >
                   <img
                     src={service.icon}

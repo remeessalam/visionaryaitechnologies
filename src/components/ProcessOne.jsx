@@ -16,54 +16,59 @@ const ProcessOne = () => {
               <Marquee speed={30}>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-1.jpeg" alt="img" />
+                    <img src="assets/img/client/1-1.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-2.jpeg" alt="img" />
+                    <img src="assets/img/client/1-2.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-3.jpeg" alt="img" />
+                    <img src="assets/img/client/1-3.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-4.jpeg" alt="img" />
+                    <img src="assets/img/client/1-4.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-5.jpeg" alt="img" />
+                    <img src="assets/img/client/1-5.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-6.jpeg" alt="img" />
+                    <img src="assets/img/client/1-6.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-7.jpeg" alt="img" />
+                    <img src="assets/img/client/1-7.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-8.jpeg" alt="img" />
+                    <img src="assets/img/client/1-8.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-9.jpeg" alt="img" />
+                    <img src="assets/img/client/1-9.png" alt="img" />
                   </div>
                 </div>
                 <div style={{ width: "14rem" }}>
                   <div className="client-logo">
-                    <img src="assets/img/client/1-10.jpeg" alt="img" />
+                    <img src="assets/img/client/1-10.png" alt="img" />
                   </div>
                 </div>
+                {/* <div style={{ width: "14rem" }}>
+                  <div className="client-logo">
+                    <img src="assets/img/client/1-11.png" alt="img" />
+                  </div>
+                </div> */}
               </Marquee>
             </div>
           </div>

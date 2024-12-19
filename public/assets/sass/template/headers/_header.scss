@@ -5,7 +5,7 @@
 
 .sticky-wrapper {
     transition: 0.4s ease-in-out;
-    background-color: black;
+    background-color: white;
 
     &.sticky {
         position: fixed;
@@ -191,7 +191,7 @@
         font-weight: 400;
         font-family: $title-font;
         font-size: 16px;
-        color: $title-color;
+        color: black;
 
         &:hover {
             color: $theme-color;

@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { companyDetails } from "../constant";
 import { useForm } from "react-hook-form";
+import toast from "react-hot-toast";
 
 const ContactInner = ({ page }) => {
   const [hover, setHover] = useState(false);
+  const [spinner, setSpinner] = useState(false);
+  const navigate = useNavigate();
 
   const {
     register,
@@ -14,10 +17,42 @@ const ContactInner = ({ page }) => {
   } = useForm();
 
   // Handle form submission
-  const onSubmit = (data) => {
-    console.log("Form Submitted Data:", data);
-    alert("Form submitted successfully!");
-    reset();
+
+  const onSubmit = async (data) => {
+    console.log(data);
+    setSpinner(true);
+
+    var emailBody = "Name: " + data.name + "\n\n";
+    emailBody += "Email: " + data.email + "\n\n";
+    emailBody += "Phone: " + data.phone + "\n\n";
+    emailBody += "Subject: " + data.subject + "\n\n";
+    emailBody += "Message:\n" + data.message;
+
+    // Construct the request payload
+    var payload = {
+      to: companyDetails.email,
+      // to: "remeesreme4u@gmail.com",
+      subject: "You have a new message from visionary ai",
+      body: emailBody,
+    };
+
+    await fetch("https://smtp-api-tawny.vercel.app/send-email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((response) => response.json())
+      .then(() => {
+        toast.success("Email sent successfully");
+        reset();
+        navigate("/thank-you");
+      })
+      .catch((error) => {
+        toast.error(error.message);
+      })
+      .finally(() => setSpinner(false));
   };
   return (
     <>

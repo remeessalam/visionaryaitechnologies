@@ -8,7 +8,7 @@ const FooterOne = () => {
       className="footer-wrapper footer-layout1"
       style={{
         backgroundImage: "url(assets/img/bg/footer-bg1-1.png)",
-        background: "black",
+        background: "#7c84a7",
       }}
     >
       <div className="container">
@@ -19,15 +19,15 @@ const FooterOne = () => {
                 <div className="about-logo">
                   <Link to="/">
                     <img
-                      src="assets/img/logo-min.webp"
+                      src="assets/img/logo-min.png"
                       alt="Laun"
                       style={{ width: "16rem" }}
                     />
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                  Many desktop ublishing packages web page editors no Lorem
-                  Ipsum a default model text, and a search for
+                  Delivering innovative software solutions to drive your digital
+                  success. Let's build the future together.
                 </p>
                 <div className="social-btn style3">
                   <Link to={companyDetails.instagram} tabIndex={-1}>

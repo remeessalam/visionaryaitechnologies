@@ -3,9 +3,7 @@ import { Helmet } from "react-helmet";
 const HelmetReact = ({ title }) => {
   return (
     <Helmet>
-      <title>
-        {title} || Bizmaster - Business Consulting React Js Template
-      </title>
+      <title>{title}</title>
       <meta
         name="description"
         content="Bizmaster - Business Consulting React Js Template"

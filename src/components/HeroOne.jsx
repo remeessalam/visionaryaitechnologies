@@ -34,7 +34,7 @@ const HeroOne = ({ page }) => {
                 <h1 className="hero-title">
                   {page === "web" && "Web App Development"}
                   {page === "app" && "Mobile App Development"}
-                  {!page && "Cutting-Edge Solutions for Tomorrow’s World"}
+                  {!page && "Innovative Solutions Shaping the Future"}
                 </h1>
                 <p className="hero-text">
                   {page === "web" && (

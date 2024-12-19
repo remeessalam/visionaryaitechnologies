@@ -21,12 +21,25 @@ import TeamDetails from "./pages/TeamDetails";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
 import LandingPage from "./pages/LandingPage";
+import WhatsAppIcon from "./components/Whatsapp";
+import { Toaster } from "react-hot-toast";
+import Thankyou from "./pages/Thankyou/Thankyou";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
         <RouteScrollToTop />
+        <Toaster
+          position="top-bottom"
+          toastOptions={{
+            style: {
+              background: "#104bb9",
+              color: "#ffffff",
+            },
+          }}
+        />
+        <WhatsAppIcon />
         <ScrollToTop smooth color="#196164" />
         <Routes>
           <Route exact path="/" element={<HomeOne />} />
@@ -45,6 +58,7 @@ const App = () => {
           <Route exact path="/team" element={<Team />} />
           <Route exact path="/team-details" element={<TeamDetails />} />
           <Route exact path="/contact" element={<Contact />} />
+          <Route exact path="/thank-you" element={<Thankyou />} />
           <Route
             exact
             path="/web-development"
