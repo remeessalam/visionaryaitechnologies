@@ -71,7 +71,7 @@ const ContactInner = ({ page }) => {
             <div className="container">
               <div className="contact-page-wrap bg-theme">
                 <div className="row gy-40 align-items-center">
-                  <div className="col-lg-4 col-md-6">
+                  <div className="col-lg-6 col-md-6">
                     <div className="contact-info">
                       <div className="contact-info_icon">
                         <i className="fas fa-phone-alt" />
@@ -85,7 +85,7 @@ const ContactInner = ({ page }) => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-lg-4 col-md-6">
+                  {/* <div className="col-lg-4 col-md-6">
                     <div className="contact-info">
                       <div className="contact-info_icon">
                         <i className="fas fa-map-marker-alt" />
@@ -97,8 +97,8 @@ const ContactInner = ({ page }) => {
                         </p>
                       </div>
                     </div>
-                  </div>
-                  <div className="col-lg-4 col-md-6">
+                  </div> */}
+                  <div className="col-lg-6 col-md-6">
                     <div className="contact-info">
                       <div className="contact-info_icon">
                         <i className="fas fa-envelope" />

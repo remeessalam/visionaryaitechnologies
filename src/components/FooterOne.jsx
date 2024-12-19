@@ -92,7 +92,7 @@ const FooterOne = () => {
                       </h6>
                     </div>
                   </div>
-                  <div className="widget-contact-grid">
+                  {/* <div className="widget-contact-grid">
                     <i className="fas fa-map-marker-alt" />
                     <div className="contact-grid-details">
                       <h6>
@@ -100,7 +100,7 @@ const FooterOne = () => {
                         <p />
                       </h6>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
