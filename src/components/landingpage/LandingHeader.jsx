@@ -75,7 +75,7 @@ const LandingHeader = () => {
             <div className="th-widget-about">
               <div className="about-logo">
                 <Link to="/">
-                  <img src="assets/img/logo-min.webp" alt="Laun" />
+                  <img src="assets/img/logo-min.png" alt="Laun" />
                 </Link>
               </div>
               <p className="about-text">
@@ -157,7 +157,7 @@ const LandingHeader = () => {
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
-              <img src="assets/img/logo-min.webp" alt="Bizmaster" />
+              <img src="assets/img/logo-min.png" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
@@ -215,7 +215,7 @@ const LandingHeader = () => {
               <div className="col-auto">
                 <div className="header-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-min.webp" alt="logo" />
+                    <img src="assets/img/logo-min.png" alt="logo" />
                   </Link>
                 </div>
               </div>
