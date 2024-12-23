@@ -136,7 +136,7 @@ const ContactInner = ({ page }) => {
                   Let's combine our development expertise with your innovative
                   ideas!!!
                 </p>
-                <div className="social-btn style4">
+                {/* <div className="social-btn style4">
                   <Link to={companyDetails.facebook} tabIndex={-1}>
                     <i
                       className="fab fa-facebook-f"
@@ -158,7 +158,7 @@ const ContactInner = ({ page }) => {
                       style={{ color: "black" }}
                     />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
             <div className="col-xl-6 col-lg-8">

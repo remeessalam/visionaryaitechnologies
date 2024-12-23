@@ -10,6 +10,7 @@ import FooterOne from "../components/FooterOne";
 import LandingPortfolio from "../components/landingpage/LandingPortfolio";
 import LandingHeader from "../components/landingpage/LandingHeader";
 import AboutOne from "../components/AboutOne";
+import ProcessOne from "../components/ProcessOne";
 const LandingPage = ({ page }) => {
   return (
     <div>
@@ -28,6 +29,9 @@ const LandingPage = ({ page }) => {
       </div>
       <div className="space">
         <WhyChoose />
+      </div>
+      <div>
+        <ProcessOne />
       </div>
       <LandingPortfolio page={page} />
       <div className="space-bottom">
