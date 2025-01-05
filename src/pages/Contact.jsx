@@ -14,6 +14,7 @@ const Contact = () => {
       setActive(false);
     }, 500);
   }, []);
+  console.log("refresh");
   return (
     <>
       {/* Preloader */}
