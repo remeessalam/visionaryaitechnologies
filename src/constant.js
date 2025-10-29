@@ -91,6 +91,13 @@ export const services = [
     imgSrc: arvr,
     link: "/service-details",
   },
+  {
+    title: "AR VR",
+    description:
+      "Step into the future with Visionary AI Technologies' Augmented Reality (AR) and Virtual Reality (VR) solutions. We create immersive and interactive AR/VR experiences that transform the way users interact with digital content.",
+    imgSrc: arvr,
+    link: "/service-details",
+  },
 ];
 
 export const portfolioDataApp = [
