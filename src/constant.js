@@ -5,6 +5,9 @@ import chat from "./assets/images/chat.png";
 import data from "./assets/images/data.png";
 import block from "./assets/images/block.png";
 import arvr from "./assets/images/arvr.png";
+import pdf from "./assets/images/pdf.png";
+import ai from "./assets/images/ai.png";
+import datae from "./assets/images/datae.png";
 import portfoliwebone from "./assets/images/portfolio/1.webp";
 import portfoliwebtwo from "./assets/images/portfolio/2.webp";
 import portfoliwebthree from "./assets/images/portfolio/3.webp";
@@ -92,10 +95,24 @@ export const services = [
     link: "/service-details",
   },
   {
-    title: "AR VR",
+    title: "PDFUtils",
     description:
-      "Step into the future with Visionary AI Technologies' Augmented Reality (AR) and Virtual Reality (VR) solutions. We create immersive and interactive AR/VR experiences that transform the way users interact with digital content.",
-    imgSrc: arvr,
+      "Stop worring about third party data leaks and make use of our PDFUtils powerhouse for all PDF editing, conversion, manipulation and security needs. Our tool is an advanced on-prem solution with AI capabalities and custom workflows.",
+    imgSrc: pdf,
+    link: "/service-details",
+  },
+  {
+    title: "Audio/Visual Artificial Intelligence",
+    description:
+      "With latest advancements in LLM, it's only a matter of time for boom in Audio Visual applications of AI and Visionary AI Technologies offers exciting solutions in the domain of your need.",
+    imgSrc: ai,
+    link: "/service-details",
+  },
+  {
+    title: "Data Engineering",
+    description:
+      "Data is the new gold and we at Visionary AI Technologies are well versed in mining that gold. Be it system logs of your infrastructure or sales records of your business, we build custom solutions and get top insights.",
+    imgSrc: datae,
     link: "/service-details",
   },
 ];
