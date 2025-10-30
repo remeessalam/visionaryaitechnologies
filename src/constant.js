@@ -97,21 +97,21 @@ export const services = [
   {
     title: "PDFUtils",
     description:
-      "Stop worring about third party data leaks and make use of our PDFUtils powerhouse for all PDF editing, conversion, manipulation and security needs. Our tool is an advanced on-prem solution with AI capabalities and custom workflows.",
+      "Eliminate the risk of third-party data leaks with our powerhouse PDFUtils — your all-in-one solution for PDF editing, conversion, manipulation, and security. This advanced on-premise tool combines AI capabilities with customizable workflows to deliver unmatched performance and control.",
     imgSrc: pdf,
     link: "/service-details",
   },
   {
     title: "Audio/Visual Artificial Intelligence",
     description:
-      "With latest advancements in LLM, it's only a matter of time for boom in Audio Visual applications of AI and Visionary AI Technologies offers exciting solutions in the domain of your need.",
+      "With rapid advancements in large language models (LLMs), the Audio-Visual AI revolution is just beginning. Visionary AI Technologies offers cutting-edge, domain-specific solutions to help you harness the full potential of AI in audio, video, and vision applications.",
     imgSrc: ai,
     link: "/service-details",
   },
   {
     title: "Data Engineering",
     description:
-      "Data is the new gold and we at Visionary AI Technologies are well versed in mining that gold. Be it system logs of your infrastructure or sales records of your business, we build custom solutions and get top insights.",
+      "Data is the new gold — and at Visionary AI Technologies, we excel at mining it. From infrastructure system logs to business sales records, we design custom data engineering solutions that uncover powerful insights and drive smarter decision-making.",
     imgSrc: datae,
     link: "/service-details",
   },
